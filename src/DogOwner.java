@@ -8,8 +8,8 @@ public class DogOwner {
         this.sexDogOwner = sexDogOwner;
     }
 
-    public void setNameDog(Dog newName) {
-        this.dog.setName(newName.toString());
+    public void setNameDog(String newName) {
+        this.dog.setName(newName);
     }
 
     public void setDog(Dog dog) {
@@ -17,7 +17,7 @@ public class DogOwner {
     }
 
     public void setAgeDog() {
-        this.dog.setAge();
+        this.dog.incrementAge();
     }
 
     @Override

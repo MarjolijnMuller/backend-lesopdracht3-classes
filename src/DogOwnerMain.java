@@ -30,6 +30,10 @@ public class DogOwnerMain {
 
         System.out.println(nick.toString());
 
+        nick.setNameDog("Mike");
+
+        System.out.println(nick.toString());
+
     }
 
 }

@@ -15,7 +15,7 @@ public class Dog {
         this.name = name;
     }
 
-    public void setAge() {
+    public void incrementAge() {
         this.age = age++;
     }
 
